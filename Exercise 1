@@ -1,0 +1,10 @@
+print("what is your name")
+name=input()
+print("What is your age")
+age=int(input())
+print("you will be 100 by the year of", end=" ")
+print(100-age+2019)
+print("enter a number you wish to display the message by that many times")
+n=int(input())
+for i in range(1,n):
+    print("you will be 100 by the year of", 100-age+2019)
